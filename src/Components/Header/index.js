@@ -1,7 +1,7 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 
-import logo from '../../images/logo.PNG';
+import logo from '../../images/logo1.png';
 
 
 import './Header.css'

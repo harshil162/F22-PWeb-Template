@@ -4,3 +4,7 @@
     align-items: center;
     margin-bottom: 2em;
 }
+
+.contacts body {
+    color: var(--clr-main);
+}
