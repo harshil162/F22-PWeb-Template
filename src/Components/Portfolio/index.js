@@ -18,7 +18,7 @@ const Portfolio = () => {
                 {/*Copy Paste Starts here */}
                 <div class="proj">
                     <img src={Proj1}/>
-                    <h3>DyslexiFi</h3>
+                    <h3>Gator Space</h3>
                 </div>
                 {/*Copy Paste Ends here */}
 
