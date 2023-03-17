@@ -10,7 +10,8 @@
     width: 25%;
     height: 1px;
     margin: 0.5em auto 1em;
-    background: var(--clr-main);
+    /*background: var(--clr-main);*/
+    background: blue;
     opacity: 0.70;
 }
 
@@ -48,7 +49,8 @@
 .exp__name {
     font-size: var(--fs-body);
     margin: 0.2em;
-    color: var(--clr-main);
+    /*color: var(--clr-main);*/
+    color: turquoise;
 }
 
 .exp__body {

@@ -24,8 +24,10 @@
 }
 
 .intro__subtitle {
-    background-color: var(--clr-main);
-    color: var(--clr-light);
+    /*background-color: var(--clr-main);*/
+    background-color:black;
+    /*color: var(--clr-light);*/
+    color: white;
     text-align: center; 
     padding-right: 20px;
     padding-top: 0.5em;

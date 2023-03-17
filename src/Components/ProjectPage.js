@@ -21,9 +21,10 @@ const ProjectPage = () => {
                 <div class="project">
                     <img src={Project1}/>
                     <h3>Gator Space</h3>
-                    <p>I worked with 3 other students on this project during the UF Swamphacks Hackathon. This project is a forum that 
-                        displays information about various student organizations of the University of Florida and their meetings. Users 
-                        can identify where on campus events are happening for organizations of interest to them. 
+                    <p>I worked with 3 other students on this forum that displays information about various student 
+                        organizations at UF and their meetings. Users can identify where on 
+                        campus events are happening for organizations of interest to them. Web development languages 
+                        were used for programming this.
                     </p>
                 </div>
 
