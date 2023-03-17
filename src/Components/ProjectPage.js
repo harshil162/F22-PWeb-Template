@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 //images
-import Project1 from "../images/AIApplication.png"
+import Project1 from "../images/GBMFinder.png"
 import Project2 from "../images/blackjack.jpg"
 import Project3 from "../images/ObjectCatcher.png"
 
@@ -20,10 +20,10 @@ const ProjectPage = () => {
 
                 <div class="project">
                     <img src={Project1}/>
-                    <h3>DyslexiFi</h3>
-                    <p>I made contributions to this project during the UF AI Days Hackathon, and worked with 5 other students. This 
-                        project uses real-time imaging software that reads students' handwriting and returns percent similarity to
-                        dyslexic handwriting. Python was the main language used in this. 
+                    <h3>Gator Space</h3>
+                    <p>I worked with 3 other students on this project during the UF Swamphacks Hackathon. This project is a forum that 
+                        displays information about various student organizations of the University of Florida and their meetings. Users 
+                        can identify where on campus events are happening for organizations of interest to them. 
                     </p>
                 </div>
 
