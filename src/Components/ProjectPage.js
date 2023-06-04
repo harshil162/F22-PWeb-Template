@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 //images
 import Project1 from "../images/GBMFinder.png"
 import Project2 from "../images/blackjack.jpg"
-import Project3 from "../images/ObjectCatcher.png"
+import Project3 from "../images/Dyslexifi.png"
 
 //Components
 import Header from './Header';
