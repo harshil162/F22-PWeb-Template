@@ -29,7 +29,7 @@ const Portfolio = () => {
                 
                 <div class="proj">
                     <img src={Proj3}/>
-                    <h3>Object Catcher Game</h3>
+                    <h3>DyslexiFi</h3>
                 </div>
 
             </section>
