@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom';
 
 import Proj1 from '../../images/GBMFinder.png';
 import Proj2 from '../../images/blackjack.jpg';
-import Proj3 from '../../images/ObjectCatcher.png';
+import Proj3 from '../../images/Dyslexifi.png';
 
 import './portfolio.css';
 
@@ -29,7 +29,7 @@ const Portfolio = () => {
                 
                 <div class="proj">
                     <img src={Proj3}/>
-                    <h3>Object Catcher Game</h3>
+                    <h3>DyslexiFi</h3>
                 </div>
 
             </section>

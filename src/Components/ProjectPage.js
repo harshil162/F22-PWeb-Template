@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 //images
 import Project1 from "../images/GBMFinder.png"
 import Project2 from "../images/blackjack.jpg"
-import Project3 from "../images/ObjectCatcher.png"
+import Project3 from "../images/Dyslexifi.png"
 
 //Components
 import Header from './Header';
@@ -21,8 +21,14 @@ const ProjectPage = () => {
                 <div class="project">
                     <img src={Project1}/>
                     <h3>Gator Space</h3>
+<<<<<<< HEAD
                     <p>I worked with 3 other students on a forum that displays information about various student organizations of UF and 
                     their meetings. Users can identify where on campus events are happening for organizations of interest to them.
+=======
+                    <p>I worked with 3 other students during the UF Swamphacks IX on a forum that displays information about various student organizations of UF and 
+                    their meetings. Users can identify where on campus events are happening for organizations of interest to them. Any club can
+                    advertise their events publicly and explore convenient meeting areas. 
+>>>>>>> 1acc85c9846d8abe24a4859d2e3ab0170d592d2f
                     </p>
                 </div>
 
@@ -36,10 +42,10 @@ const ProjectPage = () => {
 
                 <div class="project">
                     <img src={Project3}/>
-                    <h3>Object Catcher Game</h3>
-                    <p> I created an "Object Catcher" game in the Scratch programming language. In this game, the user has to catch 
-                        falling objects from the sky in order to earn a certain number of points. The user wins the game after 
-                        catching that number of points. 
+                    <h3>DyslexiFi</h3>
+                    <p> I was in a group of 4 other students during the UF AI Days Hackathon through the development of the project. This application uses real time imaging
+                    software that reads students handwriting and returns percent similarity to dyslexic handwriting. It allows educators to identify students with dyslexia.
+                    Python and TensorFlow were used in the project development. 
                     </p>
                 </div>
 
