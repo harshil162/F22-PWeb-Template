@@ -1,7 +1,7 @@
 import React from 'react'
 import Image1 from './../../images/SASEball.png';
-import Image2 from './../../images/robot.jfif';
-import Image3 from './../../images/MUN-1.jpg';
+import Image2 from './../../images/TallyCassie.jpg';
+import Image3 from './../../images/6162945.png';
 
 import "./Experiences.css";
 
@@ -17,7 +17,7 @@ const Experiences = () => {
                         <img src={Image1}/>
                         <div class="exp__desc">
                             <h1 class="exp__name">Society of Asian Scientists & Engineers - Intern</h1>
-                            <p class="exp__body">I work with club officers and other members of the SASE Interns Program to plan club events.</p>
+                            <p class="exp__body">I worked with club officers and other members of the SASE Interns Program to plan club events.</p>
                         </div>
                     </div>
                     {/* COPY PASTE END HERE */}
@@ -32,8 +32,8 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image3}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">Chiles Model UN Club - President</h1>
-                            <p class="exp__body">I held frequent meetings to educate members about the fundamentals of international diplomacy, and won awards at conferences I attended.</p>
+                            <h1 class="exp__name">UF Machine Intelligence Laboratory - Software Team Member</h1>
+                            <p class="exp__body">I have undergone technical training as part of the Software Team and intend to work on a project.</p>
                         </div>
                     </div>
                 </div>

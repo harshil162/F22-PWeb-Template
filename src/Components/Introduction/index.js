@@ -14,8 +14,8 @@ const Introduction = () => {
                         <p class="intro__subtitle">I am currently a sophomore at the University of Florida.</p>
                         <p class="intro__memo">I am majoring in Computer Science. I describe myself
                         as perseverant and intrinsically driven. My interests within Computer Science 
-                        include artificial intelligence, human-computer interaction, and web development. </p>
-                        <p class="intro_memo">In my free time, I enjoy listening to music, exercising, and spending time with friends. </p>
+                        include artificial intelligence, human-machine interaction, and web development. </p>
+                        <p class="intro_memo">In my free time, I enjoy swimming, listening to music, and spending time with friends. </p>
                     </div>
                 </div>
             </div>
