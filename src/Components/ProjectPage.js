@@ -35,9 +35,14 @@ const ProjectPage = () => {
                 <div class="project">
                     <img src={Project1}/>
                     <h3>Gator Space</h3>
+<<<<<<< HEAD
+                    <p>I worked with 3 other students on a forum that displays information about various student organizations of UF and 
+                    their meetings. Users can identify where on campus events are happening for organizations of interest to them.
+=======
                     <p>I worked with 3 other students during the UF Swamphacks IX on a forum that displays information about various student organizations of UF and 
                     their meetings. Users can identify where on campus events are happening for organizations of interest to them. Any club can
                     advertise their events publicly and explore convenient meeting areas. 
+>>>>>>> 1acc85c9846d8abe24a4859d2e3ab0170d592d2f
                     </p>
                     <p>
                     My contributions to the project were adding and modifying JavaScript and CSS code with the intent of implementing features to
