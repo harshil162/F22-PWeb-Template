@@ -16,8 +16,9 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image1}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">Society of Asian Scientists & Engineers - Intern</h1>
-                            <p class="exp__body">I worked with club officers and other members of the SASE Interns Program to plan club events.</p>
+                            <h1 class="exp__name">Florida Rocket Laboratory - Electronics Engineer</h1>
+                            <p class="exp__body">I am working on an assigned New Member Project within the Electronics subteam while learning basic
+                                                rocket engine design.</p>
                         </div>
                     </div>
                     {/* COPY PASTE END HERE */}

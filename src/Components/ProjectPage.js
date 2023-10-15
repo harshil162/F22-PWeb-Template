@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 //images
 import Project2 from "../images/GBMFinder.png"
 import Project1 from "../images/blackjack.jpg"
-import Project4 from "../images/Dyslexifi.png"
+import Project5 from "../images/Dyslexifi.png"
 import Project3 from "../images/MusicAccessor.png"
 
 //Components
@@ -57,6 +57,18 @@ const ProjectPage = () => {
 
                 <div class="project">
                     <img src={Project4}/>
+                    <h3>SwampScheduler</h3>
+                    <p>This open source project was initiated by a group of University of Florida students aiming to allow any UF student plan
+                        classes for semesters. I am making contributions to the projects via pull requests on Github.
+                    </p>
+                    <p>
+                    I enabled user input for searching last names of any UF professor for users to choose classes taught by the professors. I am 
+                    working on enabling users to pin/save schedules. 
+                    </p>
+                </div>
+
+                <div class="project">
+                    <img src={Project5}/>
                     <h3>DyslexiFi</h3>
                     <p>I assembled a group of 5 students during the UF AI Days Hackathon through the development of the project.
                     This application uses real time imaging software that reads students handwriting and returns percent similarity
