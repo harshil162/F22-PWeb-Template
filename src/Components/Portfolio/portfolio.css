@@ -9,7 +9,10 @@
     color: var(--clr-main)
     /*color: green;*/
 }
-
+.port__container {
+    display:flex;
+    justify-content: center;
+}
 .port__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
