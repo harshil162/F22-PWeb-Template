@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 //images
 import Project2 from "../images/GBMFinder.png"
 import Project1 from "../images/blackjack.jpg"
-import Project5 from "../images/Dyslexifi.png"
+import Project5 from "../images/GoalQuest.png"
+import Project4 from "../images/scheduler.png"
 import Project3 from "../images/MusicAccessor.png"
 
 //Components
@@ -46,7 +47,7 @@ const ProjectPage = () => {
                     <h3>Music Accessor</h3>
                     <p>This static web application allows users to search for and listen to specific songs that are accessible in the 
                     application. A customizable JSON database consisting of currently 20 songs is utilized by the app. Anyone can 
-                    modify the list to make a personal playlist. 
+                    modify the database to make a personal playlist. 
                     </p>
                     <p>
                     The list stores names, artists, genres, and YouTube links of the song choices. I used React.js and HTML to enable users
@@ -59,25 +60,24 @@ const ProjectPage = () => {
                     <img src={Project4}/>
                     <h3>SwampScheduler</h3>
                     <p>This open source project was initiated by a group of University of Florida students aiming to allow any UF student plan
-                        classes for semesters. I am making contributions to the projects via pull requests on Github.
+                        classes for semesters. I made contributions to the projects via pull requests on Github.
                     </p>
                     <p>
-                    I enabled user input for searching last names of any UF professor for users to choose classes taught by the professors. I am 
-                    working on enabling users to pin/save schedules. 
+                    I enabled user input for searching last names of any UF professor for users to choose classes taught by the professors. I 
+                    contributed code to enable users to pin and save certain schedules they create. 
                     </p>
                 </div>
 
                 <div class="project">
                     <img src={Project5}/>
-                    <h3>DyslexiFi</h3>
-                    <p>I assembled a group of 5 students during the UF AI Days Hackathon through the development of the project.
-                    This application uses real time imaging software that reads students handwriting and returns percent similarity
-                    to dyslexic handwriting. It allows educators to identify students with dyslexia. Python and TensorFlow were used
-                    in the project development.
+                    <h3>GoalQuest</h3>
+                    <p>In recent years, national soccer clubs such as Barcelona and Manchester United, have been fined for going over their budgets
+                        when hiring players and violating the financial fair play rules of their respective leagues and organizations. The command line 
+                        application me and 2 other students created seeks to reduce such instances. 
                     </p>
                     <p>
-                    While my technical contributions were minor, I provided any assistance to other members I could, found existing data
-                    sets useful in training a ML model, and helped write the project portfolio for hackathon submission purposes.
+                    I used Python to write the Merge and Quick sort algorithms used to sort a filtered list of 10,000+ soccer players by ascending market values. 
+                    I presented the functionalities and running times of both algorithms based on user input through a YouTube presentation. 
                     </p>
                 </div>
 
@@ -88,3 +88,4 @@ const ProjectPage = () => {
 }
 
 export default ProjectPage;
+
