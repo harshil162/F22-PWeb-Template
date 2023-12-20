@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePic from './../../images/HarshilPahuja2.jpg';
+import ProfilePic from './../../images/HarshilPahuja1.jpg';
 
 import './intro.css';
 
