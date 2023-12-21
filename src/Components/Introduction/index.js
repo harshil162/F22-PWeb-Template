@@ -15,7 +15,7 @@ const Introduction = () => {
                         <p class="intro__memo">I am majoring in Computer Science. I describe myself as perseverant and intrinsically
                         driven. My interests within Computer Science are artificial intelligence, human-machine interaction, and web
                         development. </p>
-                        <p class="intro_memo">Some programming languages I am skilled with are: MATLAB, Java, Python, JavaScript, and C++. </p>
+                        <p class="intro_memo">Some programming languages I am skilled with are: MATLAB, Python, JavaScript, Java, and C++. </p>
                         <p class="intro_memo">Tools and technologies I am skilled with are: Onshape, HTML/CSS, Azure Machine Learning, React.js, and Ubuntu. </p>
                         <p class="intro_memo">In my free time, I enjoy swimming, listening to music, and spending time with friends.</p>
                     </div>
