@@ -16,9 +16,8 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image1}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">Florida Rocket Laboratory - Electronics Engineer</h1>
-                            <p class="exp__body">I am working on an assigned New Member Project within the Electronics subteam while learning basic
-                                                rocket engine design.</p>
+                            <h1 class="exp__name">Dream Team Engineering - Software Engineer</h1>
+                            <p class="exp__body">I am working on a project within the Train of Four Team to detect hand twitches given image and real time video inputs. </p>
                         </div>
                     </div>
                     {/* COPY PASTE END HERE */}
@@ -26,7 +25,7 @@ const Experiences = () => {
                         <img src={Image2}/>
                         <div class="exp__desc">
                             <h1 class="exp__name">UF Google Developer Student Club - Advertising Lead</h1>
-                            <p class="exp__body">I oversee any advertising related materials, including setup of tabling events.</p>
+                            <p class="exp__body">I oversee any advertising related materials, including setup of tabling events. I additionally hosted 3 technical workshops during the 2024-2025 school year.</p>
                         </div>
                     </div>
 
