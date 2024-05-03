@@ -16,7 +16,8 @@ const Header = () => {
                 <nav class="nav">
                     <u1 class="nav__list">
                         <l1 class="nav__item" onClick={() => {navigate("/")}}><a href="#home" class="nav__link">Home</a></l1>
-                        <l1 class="nav__item" onClick={() => {navigate("/")}}><a href="#portfolio" class="nav__link">Portfolio</a></l1>
+                        <l1 class="nav__item" onClick={() => {navigate("/")}}><a href="#exp" class="nav__link">Experiences</a></l1>
+                        <l1 class="nav__item" onClick={() => {navigate("/")}}><a href="#portfolio" class="nav__link">Projects</a></l1>
                         <l1 class="nav__item" onClick={() => {navigate("/")}}><a href="#contacts" class="nav__link">Contact</a></l1>
                     </u1>
                 </nav>

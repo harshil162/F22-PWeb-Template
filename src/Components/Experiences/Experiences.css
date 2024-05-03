@@ -24,6 +24,8 @@
 .exp__list {
     display: flex;
     flex-direction: row;
+    justify-content: center;  /*center the experiences */
+    align-items: flex-start;  /*align the top edges of each experience */
     max-width: 900px;
 }
 
@@ -32,7 +34,7 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    width: 14em;
+    width: 30%;  /*consistent width, feel free to adjust */
     margin-top: 0;
 }
 
@@ -43,6 +45,7 @@
 .exp img {
     max-height: 3.5em;
     max-width: 3.5em;
+    object-fit: contain;  /* maintain aspect ratio of the images */
     margin-right: 1em;
 }
 

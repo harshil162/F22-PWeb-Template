@@ -1,14 +1,16 @@
 .logo {
     height: 3em;
 }
-
+.nav__item {
+    margin: 0 6px;
+}
 .nav__list {
     display: flex;
     height: 100%;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    width: 300px;
+    width: 100%
 }
 
 @media (max-width: 800px) {

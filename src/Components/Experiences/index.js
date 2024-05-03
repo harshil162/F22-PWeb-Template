@@ -1,5 +1,5 @@
 import React from 'react'
-import Image1 from './../../images/rocket.jpg';
+import Image1 from './../../images/DTE.png';
 import Image2 from './../../images/dscfiu_logo.jpg';
 import Image3 from './../../images/6162945.png';
 
@@ -7,7 +7,7 @@ import "./Experiences.css";
 
 const Experiences = () => {
     return (
-        <body>
+        <body id="exp">
             <h3 class="exp__title">Experiences</h3>
             <div class="ornament"></div>
             <div class="exp__tile">
@@ -24,7 +24,7 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image2}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">UF Google Developer Student Club - Advertising Lead</h1>
+                            <h1 class="exp__name">UF Developer Student Club - Advertising Lead</h1>
                             <p class="exp__body">I oversee any advertising related materials, including setup of tabling events. I additionally hosted 3 technical workshops during the 2024-2025 school year.</p>
                         </div>
                     </div>
