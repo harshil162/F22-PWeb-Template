@@ -25,7 +25,7 @@ const Experiences = () => {
                         <img src={Image2}/>
                         <div class="exp__desc">
                             <h1 class="exp__name">L3Harris Technologies - Software Engineering Intern</h1>
-                            <p class="exp__body">I worked on an embedded Falcon III tactical radio utilized by the U.S. Marine Corps for operational communication.</p>
+                            <p class="exp__body">I worked on an embedded tactical radio utilized for communication in operational areas and emergency situations.</p>
                         </div>
                     </div>
 
