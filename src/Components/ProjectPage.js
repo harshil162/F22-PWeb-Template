@@ -69,7 +69,7 @@ const ProjectPage = () => {
                     <p>
                     I utilized Python to read in a CSV dataset and extract necessary data. I encoded data either through numerical or label encoding depending on whether specific data was 
                     numeric or categorical. I applied the K-Prototypes clustering algorithm to cluster both numerical and categorical data and then later group data into 5 clusters. Each cluster 
-                    gave information about most and least discussed political topics per social media platform. I finally used FastAPI to visualize the data and track results via a server. 
+                    gave information about most and least discussed political topics per social media platform. I finally used FastAPI to visualize and track results. 
                     </p>
                 </div>
 
