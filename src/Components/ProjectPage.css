@@ -10,12 +10,14 @@
     align-items: center;
     padding: 2em 2em;
     flex-direction: column;
+    background-color: var(--clr-tile);
 }
 
 .project {
     width: 100%;
     max-width: 900px;
     margin-bottom: 3em;
+    
 }
 
 .proj_btn {

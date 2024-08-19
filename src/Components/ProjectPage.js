@@ -2,10 +2,11 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 //images
 import Project2 from "../images/GBMFinder.png"
-import Project1 from "../images/blackjack.jpg"
-import Project5 from "../images/GoalQuest.png"
-import Project4 from "../images/scheduler.png"
+import Project1 from "../images/Plant.png"
+//import Project5 from "../images/GoalQuest.png"
+import Project4 from "../images/poli.png"
 import Project3 from "../images/MusicAccessor.png"
+import Project6 from "../images/RecipeApp.png"
 
 //Components
 import Header from './Header';
@@ -22,9 +23,13 @@ const ProjectPage = () => {
 
                 <div class="project">
                     <img src={Project1}/>
-                    <h3>Blackjack</h3>
-                    <p>I implemented a simplified version of the Blackjack game as my first project in Python. I utilized console input/output,
-                    selection, iteration, and data types.
+                    <h3>PlantAmor</h3>
+                    <p>I led a group of 3 students during the UF SHPE Code for Change hackathon to develop a resource for nature enthusiasts to learn about various 
+                        plant life with the hopes of expanding STEM education.  
+                    </p>
+                    <p>
+                        My contributions to this project: developing the frontend features (ex. clickable buttons and user navigation) for users to learn about the 10,000+ plants fetched 
+                        from the Plant API, and basic styling of the website for user-friendliness.
                     </p>
                 </div>
 
@@ -32,13 +37,12 @@ const ProjectPage = () => {
                     <img src={Project2}/>
                     <h3>Gator Space</h3>
                     <p>I worked with 3 other students during the UF Swamphacks IX on a forum that displays information about various student organizations of UF and
-                    their meetings. Users can identify where on campus events are happening for organizations of interest to them. Any club can
-                    advertise their events publicly and explore convenient meeting areas.
-                    </p>
+                    their meetings. Given it can be hard for studets to find engaging clubs, any club can advertise their events publicly and explore convenient meeting 
+                    areas, and users can identify the locations for the campus events.
+                    </p> 
                     <p>
-                    My contributions to the project were adding and modifying JavaScript and CSS code with the intent of implementing features to
-                    display club events, as well as, style those features on a basic level. For the purposes of hackathon submission, I helped write
-                    the project portfolio.
+                    My contributions to the project: adding and modifying JavaScript and CSS code with the intent of implementing features to
+                    display club events, as well as, style those features on a basic level
                     </p>
                 </div>
 
@@ -50,34 +54,37 @@ const ProjectPage = () => {
                     modify the database to make a personal playlist. 
                     </p>
                     <p>
-                    The list stores names, artists, genres, and YouTube links of the song choices. I used React.js and HTML to enable users
-                    input for song names and provide respective links for users to view. CSS was used to enhance the quality of user experience
-                    and style certain features of the app. I deployed the application using AWS Amplify.
+                    The list stores names, artists, genres, and YouTube links of the songs. I used React.js and HTML to enable users
+                    input for song names and provide respective links to use. I deployed the website using AWS Amplify. As the 
+                    first personal project I made with React.js, I enjoyed learning web development.
                     </p>
                 </div>
 
                 <div class="project">
                     <img src={Project4}/>
-                    <h3>SwampScheduler</h3>
-                    <p>This open source project was initiated by a group of University of Florida students aiming to allow any UF student plan
-                        classes for semesters. I made contributions to the projects via pull requests on Github.
+                    <h3>PoliTracker</h3>
+                    <p>With political polarization intensifying during the 2024 election season, social media has become a steady source of political engagement on various issues. 
+                        I made this machine learning project to learn the basics of machine learning while tracking political topics discussed across Facebook, Instagram, and X (Twitter).
                     </p>
                     <p>
-                    I enabled user input for searching last names of any UF professor for users to choose classes taught by the professors. I 
-                    contributed code to enable users to pin and save certain schedules they create. 
+                    I utilized Python to read in a CSV dataset and extract necessary data. I encoded data either through numerical or label encoding depending on whether specific data was 
+                    numeric or categorical. I applied the K-Prototypes clustering algorithm to cluster both numerical and categorical data and then later group data into 5 clusters. Each cluster 
+                    gave information about most and least discussed political topics per social media platform. I finally used FastAPI to visualize and track results. 
                     </p>
                 </div>
 
+                
                 <div class="project">
-                    <img src={Project5}/>
-                    <h3>GoalQuest</h3>
-                    <p>In recent years, national soccer clubs such as Barcelona and Manchester United, have been fined for going over their budgets
-                        when hiring players and violating the financial fair play rules of their respective leagues and organizations. The command line 
-                        application me and 2 other students created seeks to reduce such instances. 
+                    <img src={Project6}/>
+                    <h3>PixelPalate</h3>
+                    <p>For too many cooks and culinary enthusiasts, it is difficult to keep track of various food recipes we already like or may want to try out 
+                        stored in a physical cookbook. I worked with 3 other students to develop a virtual recipe book application that addresses this problem
+                        through effective storing of recipes, enable various user options for learning the details of recipes, and an interactive game. 
                     </p>
                     <p>
-                    I used Python to write the Merge and Quick sort algorithms used to sort a filtered list of 10,000+ soccer players by ascending market values. 
-                    I presented the functionalities and running times of both algorithms based on user input through a YouTube presentation. 
+                    My contributions to the project: I used React.js to handle frontend operations such as saving of recipes. I wrote code for 
+                    users to view cards of food recipes and managed states among parent and child classes to pass data effectively between the classes. I also wrote
+                    code to ensure the user can be pointed to links to detailed information about recipes from the Spoonacular API. 
                     </p>
                 </div>
 

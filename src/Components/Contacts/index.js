@@ -9,9 +9,9 @@ const Contacts = () => {
             <h1 class="cont_title">Contact Me</h1>
 
             <section class="contacts">
-                <body>School Email: harshil.pahuja@ufl.edu</body>
-                <body>LinkedIn: linkedin.com/harshil-pahuja</body>
                 <body>Personal Email: harshilpahuja1987@gmail.com</body>
+                <body>LinkedIn: linkedin.com/harshil-pahuja</body>
+                <body>Instagram: harshil.pahuja</body>
             </section>
         </body>
     )

@@ -1,13 +1,13 @@
 import React from 'react'
-import Image1 from './../../images/rocket.jpg';
-import Image2 from './../../images/dscfiu_logo.jpg';
+import Image1 from './../../images/DTE.png';
+import Image2 from './../../images/l3.png';
 import Image3 from './../../images/6162945.png';
 
 import "./Experiences.css";
 
 const Experiences = () => {
     return (
-        <body>
+        <body id="exp">
             <h3 class="exp__title">Experiences</h3>
             <div class="ornament"></div>
             <div class="exp__tile">
@@ -16,17 +16,16 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image1}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">Florida Rocket Laboratory - Electronics Engineer</h1>
-                            <p class="exp__body">I am working on an assigned New Member Project within the Electronics subteam while learning basic
-                                                rocket engine design.</p>
+                            <h1 class="exp__name">Dream Team Engineering - Software Engineer</h1>
+                            <p class="exp__body">I am working on a project within the Train of Four Team to detect hand twitches given image and real time video inputs. </p>
                         </div>
                     </div>
                     {/* COPY PASTE END HERE */}
                     <div class="exp">
                         <img src={Image2}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">UF Google Developer Student Club - Advertising Lead</h1>
-                            <p class="exp__body">I oversee any advertising related materials, including setup of tabling events.</p>
+                            <h1 class="exp__name">L3Harris Technologies - Software Engineering Intern</h1>
+                            <p class="exp__body">I worked on an embedded tactical radio utilized for communication in operational areas and emergency situations.</p>
                         </div>
                     </div>
 
