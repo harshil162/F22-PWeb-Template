@@ -1,6 +1,6 @@
 import React from 'react'
 import Image1 from './../../images/DTE.png';
-import Image2 from './../../images/dscfiu_logo.jpg';
+import Image2 from './../../images/l3.png';
 import Image3 from './../../images/6162945.png';
 
 import "./Experiences.css";
@@ -24,8 +24,8 @@ const Experiences = () => {
                     <div class="exp">
                         <img src={Image2}/>
                         <div class="exp__desc">
-                            <h1 class="exp__name">UF Developer Student Club - Advertising Lead</h1>
-                            <p class="exp__body">I oversee any advertising related materials, including setup of tabling events. I additionally hosted 3 technical workshops during the 2024-2025 school year.</p>
+                            <h1 class="exp__name">L3Harris Technologies - Software Engineering Intern</h1>
+                            <p class="exp__body">I worked on an embedded Falcon III tactical radio utilized by the U.S. Marine Corps for operational communication.</p>
                         </div>
                     </div>
 

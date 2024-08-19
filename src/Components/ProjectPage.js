@@ -62,13 +62,14 @@ const ProjectPage = () => {
 
                 <div class="project">
                     <img src={Project4}/>
-                    <h3>SwampScheduler</h3>
-                    <p>This open source project was initiated by a group of University of Florida students aiming to allow any UF student plan
-                        classes for semesters.
+                    <h3>PoliTracker</h3>
+                    <p>With political polarization intensifying during the 2024 election season, social media has become a steady source of political engagement on various issues. 
+                        I made this machine learning project to learn the basics of machine learning while tracking political topics discussed across Facebook, Instagram, and X (Twitter).
                     </p>
                     <p>
-                    My contributions to the project: I enabled user input for searching last names of any UF professor for users to choose classes taught by the professors. I 
-                    contributed code to enable users to pin and save certain schedules they create. 
+                    I utilized Python to read in a CSV dataset and extract necessary data. I encoded data either through numerical or label encoding depending on whether specific data was 
+                    numeric or categorical. I applied the K-Prototypes clustering algorithm to cluster both numerical and categorical data and then later group data into 5 clusters. Each cluster 
+                    gave information about most and least discussed political topics per social media platform. I finally used FastAPI to visualize the data and track results via a server. 
                     </p>
                 </div>
 
