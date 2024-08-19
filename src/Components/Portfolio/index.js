@@ -32,7 +32,7 @@ const Portfolio = () => {
                 
                 <div class="proj">
                     <img src={Proj3}/>
-                    <h3>SwampScheduler</h3>
+                    <h3>PoliTracker</h3>
                 </div>
 
                 <div class="proj">
