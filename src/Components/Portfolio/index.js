@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom';
 
 import Proj1 from '../../images/GBMFinder.png';
 import Proj2 from '../../images/Plant.png';
-import Proj3 from '../../images/scheduler.png';
+import Proj3 from '../../images/poli.png';
 import Proj4 from '../../images/MusicAccessor.png';
 //import Proj5 from '../../images/GoalQuest.png';
 import Proj6 from '../../images/RecipeApp.png';
